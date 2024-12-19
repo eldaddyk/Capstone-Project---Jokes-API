@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JokeBox</title>
+  </head>
+  <body>
+    <form action="/jokes" method="GET" class="joke-form">
+      <!-- Joke Category Dropdown -->
+      <label for="category">Select Category:</label>
+      <select name="category" id="category">
+        <option value="Any">Any</option>
+        <option value="Programming">Programming</option>
+        <option value="Miscellaneous">Miscellaneous</option>
+        <option value="Dark">Dark</option>
+        <option value="Pun">Pun</option>
+        <option value="Spooky">Spooky</option>
+        <option value="Christmas">Christmas</option>
+      </select>
+
+      <!-- Keyword Search -->
+      <label for="keyword">Enter Keyword:</label>
+      <input
+        type="text"
+        name="keyword"
+        id="keyword"
+        placeholder="E.g., 'loop', 'cat'"
+      />
+
+      <!-- Joke Type Radio Buttons -->
+      <fieldset>
+        <legend>Joke Type:</legend>
+        <label for="single">
+          <input type="radio" name="type" id="single" value="single" checked />
+          Single-line
+        </label>
+        <label for="twopart">
+          <input type="radio" name="type" id="twopart" value="twopart" />
+          Two-part
+        </label>
+      </fieldset>
+
+      <!-- Submit Button -->
+      <button type="submit" class="submit-btn">Get Joke</button>
+    </form>
+
+    <footer>
+      <p>&copy; 2024 Eldad Katz. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

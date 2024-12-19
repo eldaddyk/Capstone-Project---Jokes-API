@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Your Joke</title>
+  </head>
+  <body>
+    <h1>Your Joke</h1>
+    <div class="joke-results">
+      <!-- Render a single-line joke -->
+      <% if (joke && joke.type === "single") { %>
+      <p><strong>Joke:</strong> <%= joke.joke %></p>
+      <% }
+      <!-- Render a two-part joke -->
+      else if (joke && joke.type === "twopart") { %>
+      <p><strong>Setup:</strong> <%= joke.setup %></p>
+      <p><strong>Delivery:</strong> <%= joke.delivery %></p>
+      <% }
+      <!-- Render an error message if no joke data -->
+      else { %>
+      <p class="error">
+        <%= error || "Something went wrong. Please try again." %>
+      </p>
+      <% } %>
+      <!-- Link to request another joke -->
+      <a href="/">Try Another Joke</a>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Eldad Katz. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

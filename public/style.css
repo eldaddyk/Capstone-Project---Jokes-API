@@ -1,0 +1,153 @@
+/* General Reset */
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: 0;
+  padding: 0;
+  background-image: url("data:image/jpeg;base64,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");
+}
+
+/* Center Content */
+body > h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 32px;
+  color: #ff6347; /* Fun red-orange for the title */
+  text-shadow: 2px 2px #000000; /* Subtle shadow for depth */
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 0;
+  background: #ffcc00; /* Matches the form's border color */
+  color: #8b0000; /* Deep red text */
+  font-size: 14px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Container */
+.joke-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff8dc; /* Warm parchment-like background */
+  border: 2px solid #ffcc00; /* Bright yellow border */
+  border-radius: 15px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Whimsical shadow */
+}
+
+/* Form Labels */
+.joke-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #8b0000; /* Deep red for contrast */
+}
+
+/* Dropdown and Text Input */
+.joke-form select,
+.joke-form input[type="text"] {
+  width: 100%;
+  padding: 12px; /* Consistent padding */
+  margin-bottom: 15px;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #fffbe7; /* Subtle off-white */
+  color: #333;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Radio Buttons */
+fieldset {
+  border: none;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #8b4513;
+}
+
+.joke-form input[type="radio"] {
+  margin-right: 5px;
+  accent-color: #ff6347;
+  transition: transform 0.3s ease;
+}
+
+.joke-form input[type="radio"]:hover {
+  transform: scale(1.2);
+}
+
+.joke-form input[type="radio"]:checked {
+  transform: scale(1.3);
+}
+
+/* Submit Button */
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 18px;
+  color: #fff;
+  background: #ff4500; /* Bold orange */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-shadow: 1px 1px #000; /* Cartoonish button text effect */
+}
+
+.submit-btn:hover {
+  background: #ff6347; /* Softer orange on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Bouncy hover effect */
+}
+
+/* Joke Results Container */
+.joke-results {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #fff8dc; /* Same parchment-like background as form */
+  border: 2px solid #ffcc00;
+  border-radius: 20px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Joke Text */
+.joke-results p {
+  font-size: 20px;
+  margin: 15px 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+.joke-results p strong {
+  color: #ff4500; /* Match button color for emphasis */
+}
+
+/* Error Message */
+.joke-results p.error {
+  color: #dc143c; /* Cartoonish crimson red */
+  font-weight: bold;
+}
+
+/* Back Link */
+.joke-results a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #ff4500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 18px;
+  text-shadow: 1px 1px #000;
+  cursor: pointer;
+}
+
+.joke-results a:hover {
+  background: #ff6347;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
